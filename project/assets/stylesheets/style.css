@@ -1,0 +1,363 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+==========================================
+custom styles
+==========================================
+*/
+body{
+	background-color: #f6f6f8;
+	
+	font: 300 16px/22px "lato", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*
+=================
+button
+=================
+*/
+.btn{
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 25px;
+    font-weight: 300;
+    border: 2px solid rgb(233, 200, 16);
+    line-height: 50px;
+    color: rgb(233, 200, 16) ;
+
+}
+.alt-btn{
+    float: left;
+    margin-right: 100px;
+}
+    .btn-alt:hover{
+        background:  rgb(233, 200, 16);
+        color: black;
+        
+}
+.lap-btn{
+    float: right;
+    margin-left: 100px;
+}
+.lap-btn:hover{
+    background: rgb(233, 200, 16);
+    color: black;
+}
+
+.interim{
+    padding: 5px 10px;
+    border: 1px solid rgb(233, 200, 16);
+    color: yellow;
+
+}
+.interim:hover{
+    background:rgb(233, 200, 16) ;
+    color: black;
+}
+/*
+================
+logo
+================
+*/
+.logo{
+        color: rgb(233, 200, 16);
+        border-top: 2px  solid ;
+        padding: 40px 0 22px 0;
+        font-size: 48px;
+        line-height: 44px;
+        float: left;
+}
+        .tagline{
+            margin: 66px 32px 22px 0;
+            text-align: right;
+            color: rgb(233, 200, 16);
+    }
+.lap{
+    float: left;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.col-1-3,
+.col-2-3{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-1-3{
+    width: 33.33%;
+}
+.col-2-3{
+    width: 66.66%;
+}
+.grid,
+	.col-1-3 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+.group:before,
+.group:after{
+ content:"";
+display: table;
+}
+.group:after {
+	clear:both;
+} 
+
+.group{
+	clear: both;
+    *zoom: 1;
+}
+h1,h2,h3,h4,p{
+             margin-bottom: 22px;
+             
+}
+h1,h2,h3,h4,p{
+    color:  rgb(233, 200, 16);
+}
+h1{
+    font-size: 37px;
+    font-weight:300;
+    line-height: 18px;
+    color: rgb(233, 200, 16);
+    
+}
+ h2{
+     font-size: 23px;
+     font-weight: 200px;
+ }
+ h3{
+     font-size: 17px;
+     color: rgb(15, 13, 13);
+ }
+ p{
+    color: rgb(5, 4, 4);  
+ }
+ a{
+     font-size: 17px;
+     color: rgb(8, 7, 7);
+	
+	text-decoration: none;
+
+}
+
+	a:hover{
+	 
+		color: rgb(233, 200, 16);
+	}
+ .dose{
+     float: right;
+ }
+ .primary-nav{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    float: right;
+
+} 
+.primary-footer small{
+    float: left;
+}
+.primary-footer{
+    color: rgb(233, 200, 16);
+    font-size: 14px;
+    padding-bottom: 44px;
+}
+.temp{
+    float: right;
+}
+.sub{
+    display: block;
+}
+
+.generic{
+    color: rgb(8, 8, 8);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    border: -1px solid #fff;
+  }
+  .fa-linkedin{
+      background: rgb(41, 74, 146);
+      color: #fff;
+  }
+  .fa-twitter{
+      background: rgb(22, 71, 134);
+color: #fff;
+  }
+  .fa-instagram{
+        background: rgb(240, 27, 133);
+        color: #fff;
+        
+  }
+  .fa-google{
+      background: rgb(216, 9, 19);
+      color: white;
+  }
+  .idem{
+      background-color:rgb(8, 6, 6);
+      border-bottom: 4px solid rgb(233, 200, 16);
+      
+  }
+  .loc{
+      color: rgb(233, 200, 16) ;
+  }
+  .loc:hover{
+      border-radius: 5px;
+      border: 2px solid rgb(233, 200, 16);
+      background: rgb(233, 200, 16);
+      color: black;
+  }
+  
+    
+  
+  .rem{
+      background-color:#616163;
+      color: rgb(233, 200, 16);
+      padding: 11px 30px;
+      border: 2px solid rgb(233, 200, 16);
+  }
+  .rem:hover{
+      background: rgb(233, 200, 16);
+      color: rgb(255, 255, 255);
+      
+  }
+  .cliche{
+      list-style: square;
+      margin: 0 0 22px 30px;
+      color: #fff;
+  }
+  .guide{
+    list-style: square;
+	margin: 0  0 22px 30px;
+	color: #fff;
+  }
+  .row{
+	
+	min-width: 960px;
+	padding: 66px 0px 44px 0;
+}
+form{
+	margin-bottom: 22px;
+}
+input,
+textarea,select{
+	font: 300 16px/22px "lato", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.register-group{
+	color: 648880;
+	font-weight: 400;
+}
+.register-group input,
+.register-group textarea{
+    border: 2px solid rgb(233, 200, 16);
+    border-radius: 5px;
+    display: block;
+ }
+ .register-group input,
+.register-group select,
+.register-group textarea{
+	border: 1px solid rgb(233, 200, 16);
+	border-radius: 5px;
+	color: black;
+	
+	}
+.btn-pur{
+    border: 0;
+    background: #f5f5f8;
+padding: 11px 30px;
+font-size: 14px;
+   }
+
+
+.bg{
+    background: #f1f1f5;
+}
+.farm{
+    font-size: 23px;
+}
